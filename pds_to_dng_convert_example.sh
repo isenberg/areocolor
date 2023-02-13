@@ -30,7 +30,7 @@
 gdal_translate -colorinterp red,green,blue -ot UInt16 -of GTiff pdsfile_rgb.img tmpfile_rgb.tif
 
 # convert CFA "bayered" PDS to TIFF
-gdal_translate -ot UInt16 -of GTiff pdsfile_cfa.img tmpfile2_cfa.tif
+gdal_translate -ot UInt16 -of GTiff pdsfile_cfa.img tmpfile_cfa.tif
 
 # convert monochrome PDS to TIFF
 gdal_translate -ot UInt16 -of GTiff pdsfile_gray.img tmpfile_gray.tif
