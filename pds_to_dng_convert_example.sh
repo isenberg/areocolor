@@ -14,7 +14,7 @@
 # * Debian/Ubuntu Linux: sudo apt install gdal-bin libimage-exiftool-perl
 #
 # Examples for useful output formats:
-# * Byte: 8 PDS bit data
+# * Byte: 8 bit data
 # * UInt16: 11 to 16 bit data
 # * Float32: floating point data
 #
